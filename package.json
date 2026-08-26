@@ -1,0 +1,12 @@
+{
+  "name": "dripnex-theme-hacker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dripnex theme — Hacker, green-on-black terminal",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp src/index.js dist/index.js",
+    "pack": "dripnex-plugin pack ."
+  }
+}
