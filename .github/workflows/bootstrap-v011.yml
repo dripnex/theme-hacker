@@ -1,12 +1,13 @@
-name: Pack on tag
+name: Bootstrap v0.1.1 release
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
-  pack:
+  release:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -14,10 +15,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Skip if v0.1.1 release exists
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh release view v0.1.1 >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Build dist
+        if: steps.check.outputs.exists == 'false'
         run: mkdir -p dist && cp src/index.js dist/index.js
 
       - name: Pack tarball
+        if: steps.check.outputs.exists == 'false'
         run: |
           ID=$(jq -r .id manifest.json)
           VER=$(jq -r .version manifest.json)
@@ -28,9 +42,10 @@ jobs:
           echo "THEME_VER=${VER}" >> "$GITHUB_ENV"
 
       - name: Create GitHub Release
+        if: steps.check.outputs.exists == 'false'
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.ref_name }}
+          tag_name: v0.1.1
           name: ${{ env.THEME_NAME }} ${{ env.THEME_VER }}
-          body: Official Dripnex theme pack for Settings → Plugins Browse.
+          body: Theme pack with theme.json so Settings → Themes can parse the palette without PluginHost.
           files: ${{ env.ASSET }}

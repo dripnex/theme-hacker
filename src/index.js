@@ -35,7 +35,7 @@ const TOKENS = {
 module.exports = {
   id: 'theme-hacker',
   name: 'Hacker',
-  version: '0.1.0',
+  version: '0.1.1',
   description: 'Green-on-black terminal. Classic hacker phosphor, not amber CRT.',
 
   activate(context) {
