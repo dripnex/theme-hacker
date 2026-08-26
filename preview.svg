@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Hacker editor preview">
+  <rect width="960" height="540" fill="#030805"/>
+  <rect x="0" y="0" width="960" height="42" fill="#07110b"/>
+  <line x1="0" y1="42" x2="960" y2="42" stroke="rgba(125, 255, 154, 0.14)" stroke-width="1"/>
+  <circle cx="22" cy="21" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="21" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="21" r="6" fill="#28c840"/>
+  <text x="84" y="26" fill="rgba(125, 255, 154, 0.5)" font-size="12" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Dripnex</text>
+  <text x="480" y="26" text-anchor="middle" fill="#7dff9a" font-size="12.5" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Morning pages</text>
+  <text x="942" y="26" text-anchor="end" fill="rgba(125, 255, 154, 0.32)" font-size="11" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Hacker</text>
+  <rect x="0" y="42" width="248" height="498" fill="#07110b"/>
+  <line x1="248" y1="42" x2="248" y2="540" stroke="rgba(125, 255, 154, 0.14)" stroke-width="1"/>
+  <text x="18" y="70" fill="#7dff9a" font-size="13" font-weight="700" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Notes</text>
+  <rect x="14" y="82" width="220" height="28" rx="8" fill="#020503"/>
+  <text x="26" y="100" fill="rgba(125, 255, 154, 0.32)" font-size="11" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Search notes</text>
+  <rect x="8" y="128" width="232" height="56" rx="8" fill="rgba(61, 255, 122, 0.2)"/>
+  <rect x="8" y="128" width="3" height="56" rx="1.5" fill="#3dff7a"/>
+  <text x="22" y="152" fill="#3dff7a" font-size="13" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Morning pages</text>
+  <text x="22" y="170" fill="rgba(125, 255, 154, 0.5)" font-size="11" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">The light was already on the desk…</text>
+  <text x="22" y="216" fill="#7dff9a" font-size="13" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">A walk by the water</text>
+  <text x="22" y="234" fill="rgba(125, 255, 154, 0.5)" font-size="11" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Harbor air, then the long way home.</text>
+  <text x="22" y="280" fill="#7dff9a" font-size="13" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Things I keep</text>
+  <text x="22" y="298" fill="rgba(125, 255, 154, 0.5)" font-size="11" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">A short list I do not want to lose.</text>
+  <text x="22" y="344" fill="#7dff9a" font-size="13" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Tuesday</text>
+  <text x="22" y="362" fill="rgba(125, 255, 154, 0.5)" font-size="11" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Errands, then the quiet hour.</text>
+  <rect x="248" y="42" width="712" height="470" fill="#030805"/>
+  <text x="284" y="90" fill="#7dff9a" font-size="28" font-weight="700" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Morning pages</text>
+  <text x="284" y="114" fill="rgba(125, 255, 154, 0.32)" font-size="11" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Today · Markdown</text>
+  <text x="284" y="154" fill="#7dff9a" font-size="14" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">The light was already on the desk when I sat down.</text>
+  <text x="284" y="176" fill="#7dff9a" font-size="14" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">I wrote</text>
+  <rect x="334" y="162" width="86" height="18" rx="4" fill="#020503"/>
+  <text x="342" y="175" fill="#3dff7a" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace">openNote()</text>
+  <text x="426" y="176" fill="#7dff9a" font-size="14" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">and then ignored it — the page was the point.</text>
+  <rect x="284" y="198" width="640" height="44" rx="6" fill="rgba(61, 255, 122, 0.1)"/>
+  <rect x="284" y="198" width="4" height="44" rx="2" fill="#3dff7a"/>
+  <text x="302" y="225" fill="rgba(125, 255, 154, 0.5)" font-size="14" font-style="italic" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Keep the session small. One page is enough.</text>
+  <circle cx="292" cy="268" r="3" fill="#3dff7a"/>
+  <text x="304" y="272" fill="#7dff9a" font-size="14" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">tea first</text>
+  <circle cx="292" cy="292" r="3" fill="#3dff7a"/>
+  <text x="304" y="296" fill="#7dff9a" font-size="14" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">then the note</text>
+  <circle cx="292" cy="316" r="3" fill="#3dff7a"/>
+  <text x="304" y="320" fill="#7dff9a" font-size="14" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">then a walk</text>
+  <text x="284" y="358" fill="#7dff9a" font-size="14" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">See also</text>
+  <text x="344" y="358" fill="#3dff7a" font-size="14" text-decoration="underline" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Tuesday</text>
+  <text x="404" y="358" fill="#7dff9a" font-size="14" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">when the quiet hour comes back.</text>
+  <rect x="0" y="512" width="960" height="28" fill="#07110b"/>
+  <line x1="0" y1="512" x2="960" y2="512" stroke="rgba(125, 255, 154, 0.14)" stroke-width="1"/>
+  <text x="16" y="530" fill="rgba(125, 255, 154, 0.32)" font-size="11" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Markdown</text>
+  <text x="264" y="530" fill="rgba(125, 255, 154, 0.32)" font-size="11" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">128 words</text>
+  <text x="944" y="530" text-anchor="end" fill="rgba(125, 255, 154, 0.32)" font-size="11" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Hacker</text>
+</svg>

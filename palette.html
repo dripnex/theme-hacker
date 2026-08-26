@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hacker — palette</title>
+  <style>
+    :root {
+    --bg-base: #030805;
+    --bg-surface: #07110b;
+    --bg-elevated: #0c1a12;
+    --bg-inset: #020503;
+    --bg-hover: rgba(125, 255, 154, 0.07);
+    --bg-active: rgba(125, 255, 154, 0.12);
+    --text-primary: #7dff9a;
+    --text-secondary: rgba(125, 255, 154, 0.74);
+    --text-muted: rgba(125, 255, 154, 0.5);
+    --text-faint: rgba(125, 255, 154, 0.32);
+    --border: rgba(125, 255, 154, 0.14);
+    --border-subtle: rgba(125, 255, 154, 0.07);
+    --border-strong: rgba(125, 255, 154, 0.22);
+    --accent: #3dff7a;
+    --accent-hover: #6aff9c;
+    --accent-muted: rgba(61, 255, 122, 0.2);
+    --accent-subtle: rgba(61, 255, 122, 0.1);
+    --glass-bg: rgba(3, 8, 5, 0.92);
+    --glass-border: rgba(125, 255, 154, 0.12);
+    --glass-bg-menu: rgba(12, 26, 18, 0.96);
+    --glass-border-menu: rgba(125, 255, 154, 0.12);
+    --status-active: #3dff7a;
+    --status-on-hold: #c8e05a;
+    --status-completed: #5ad47a;
+    --status-dropped: #e05a6a;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      background: var(--bg-base);
+      color: var(--text-primary);
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 48px 24px 72px;
+    }
+    h1 { font-size: 2rem; font-weight: 650; letter-spacing: -0.03em; margin: 0 0 8px; }
+    .mood { color: var(--text-muted); font-size: 1.05rem; margin: 0 0 32px; max-width: 40rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+    .chip { background: var(--bg-surface); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; }
+    .swatch { height: 92px; border-bottom: 1px solid var(--border); }
+    .meta { padding: 12px 14px 14px; }
+    .label { font-weight: 650; font-size: 0.95rem; }
+    .token, .hex, .purpose { color: var(--text-muted); font-size: 0.78rem; margin-top: 4px; }
+    .hex, .token { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Hacker</h1>
+    <p class="mood">Green-on-black. Classic phosphor — a root shell after midnight.</p>
+    <div class="grid">
+    <article class="chip"><div class="swatch" style="background: var(--bg-base)"></div><div class="meta"><div class="label">Base</div><div class="token">--bg-base</div><div class="hex">#030805</div><div class="purpose">Window background</div></div></article>
+    <article class="chip"><div class="swatch" style="background: var(--bg-surface)"></div><div class="meta"><div class="label">Surface</div><div class="token">--bg-surface</div><div class="hex">#07110b</div><div class="purpose">Sidebar and titlebar</div></div></article>
+    <article class="chip"><div class="swatch" style="background: var(--bg-elevated)"></div><div class="meta"><div class="label">Elevated</div><div class="token">--bg-elevated</div><div class="hex">#0c1a12</div><div class="purpose">Raised panels</div></div></article>
+    <article class="chip"><div class="swatch" style="background: var(--text-primary)"></div><div class="meta"><div class="label">Text</div><div class="token">--text-primary</div><div class="hex">#7dff9a</div><div class="purpose">Headings and body</div></div></article>
+    <article class="chip"><div class="swatch" style="background: var(--text-muted)"></div><div class="meta"><div class="label">Muted</div><div class="token">--text-muted</div><div class="hex">#7dff9a · rgba(125, 255, 154, 0.5)</div><div class="purpose">Secondary copy</div></div></article>
+    <article class="chip"><div class="swatch" style="background: var(--accent)"></div><div class="meta"><div class="label">Accent</div><div class="token">--accent</div><div class="hex">#3dff7a</div><div class="purpose">Selection, links, marks</div></div></article>
+    <article class="chip"><div class="swatch" style="background: var(--status-active)"></div><div class="meta"><div class="label">Active</div><div class="token">--status-active</div><div class="hex">#3dff7a</div><div class="purpose">Active status</div></div></article>
+    <article class="chip"><div class="swatch" style="background: var(--status-on-hold)"></div><div class="meta"><div class="label">On hold</div><div class="token">--status-on-hold</div><div class="hex">#c8e05a</div><div class="purpose">On-hold status</div></div></article>
+    <article class="chip"><div class="swatch" style="background: var(--status-completed)"></div><div class="meta"><div class="label">Completed</div><div class="token">--status-completed</div><div class="hex">#5ad47a</div><div class="purpose">Completed status</div></div></article>
+    <article class="chip"><div class="swatch" style="background: var(--status-dropped)"></div><div class="meta"><div class="label">Dropped</div><div class="token">--status-dropped</div><div class="hex">#e05a6a</div><div class="purpose">Dropped status</div></div></article>
+    </div>
+  </main>
+</body>
+</html>
